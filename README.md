@@ -7,17 +7,17 @@
 
 
 ----------
-**Other Sources**
-- Used Dataset ([Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/))
-- Used Tutorials ([Diffusion Models - Live Coding Tutorial
-](https://youtu.be/S_il77Ttrmg), )
-- Used Repositories ([Denoising Diffusion Pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch), [The Annotated Diffusion Model](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/annotated_diffusion.ipynb#scrollTo=3a159023))
+**Other Sources:**
+- Used Dataset ([102 Category Flower Dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/))
+- Used Tutorials ([Diffusion Models - Live Coding Tutorial](https://youtu.be/S_il77Ttrmg),[Diffusion models from scratch in PyTorch](https://www.youtube.com/watch?v=a4Yfz2FxXiY))
+- Used Repositories ([Denoising Diffusion Pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch), [The Annotated Diffusion Model](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/annotated_diffusion.ipynb#scrollTo=3a159023), [Diffusion Model](https://colab.research.google.com/drive/1sjy9odlSSy0RBVgMTgP7s99NXsqglsUL?usp=sharing))
 
 -------
 **Modification Overview:**
-- Dataset change to Dogs and Cats
-- Changed order and structure of code blocks
-- Code adjustments and comments
-- Tested different hyper parameters such as batch sizes, epochs, etc.
-- Added weight saving and resuming mechanism
+- Dataset Change: Updated to the 102Flower Dataset.
+- Code Adjustments and Comments: Made specific changes to improve code efficiency, readability, and maintainability, while adding explanatory comments.
+- Changed Order and Structure of Code Blocks: Reorganized code blocks to enhance logical flow.
+- Tested Different Hyperparameters: Experimented with various hyperparameters to find optimal settings.
+- Added Weight Saving and Resuming Mechanism: Implemented functionality to save model weights periodically during training and resume training from the saved checkpoint if interrupted.
+
 --------

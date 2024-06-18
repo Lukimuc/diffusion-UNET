@@ -1,4 +1,4 @@
-# Generating Animals using a Diffusion Model based on UNET
+# Generating Flowers using a Diffusion Model based on UNET
 
 ---- 
 - **Chosen Paper:** [Diffusion Models Beat GANs on Image Synthesis [Dhariwal, Nichol, 2021]](https://openreview.net/pdf?id=AAWuCvzaVt)
